@@ -15,7 +15,7 @@ const api = new coinflipperAPI({
 
 // Example query
 var query = {
-  flips: 10
+  flips: 1
 };
 
 // Make the API request using callback
