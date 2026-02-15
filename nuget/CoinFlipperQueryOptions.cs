@@ -11,8 +11,7 @@ namespace APIVerve.API.CoinFlipper
     public class CoinFlipperQueryOptions
     {
         /// <summary>
-        /// Number of coins to flip (1-10000, default: 1)
-        /// Example: 10
+        /// Number of coins to flip
         /// </summary>
         [JsonProperty("flips")]
         public string Flips { get; set; }
