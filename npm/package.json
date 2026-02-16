@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/coinflipper",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Coin Flipper is a tool for simulating coin flips. It can flip multiple coins at once and provides statistics including heads/tails counts, percentages, streaks, and fairness analysis for probability experiments and gaming.",
   "main": "index.js",
   "types": "index.d.ts",
