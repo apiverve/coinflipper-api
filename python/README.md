@@ -239,8 +239,9 @@ from apiverve_coinflipper.apiClient import CoinflipperAPIClient
 
 api = CoinflipperAPIClient("[YOUR_API_KEY]")
 
+query = { "flips": 1 }
+
 try:
-    query = { "flips": 1 }
     result = api.execute(query)
     print(result)
 finally:
