@@ -125,13 +125,13 @@ async function makeRequest() {
     "total_flips": 10,
     "flips": [
       "Tails",
-      "Tails",
-      "Tails",
+      "Heads",
+      "Heads",
       "Tails",
       "Tails",
       "Heads",
-      "Heads",
-      "Heads",
+      "Tails",
+      "Tails",
       "Tails",
       "Tails"
     ],
@@ -140,7 +140,7 @@ async function makeRequest() {
     "heads_percentage": 30,
     "tails_percentage": 70,
     "longest_streak": {
-      "length": 5,
+      "length": 4,
       "type": "Tails"
     },
     "first_flip": "Tails",
