@@ -14,6 +14,6 @@ namespace APIVerve.API.CoinFlipper
         /// Number of coins to flip
         /// </summary>
         [JsonProperty("flips")]
-        public string Flips { get; set; }
+        public int? Flips { get; set; }
     }
 }
