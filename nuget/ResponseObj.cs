@@ -25,48 +25,63 @@ namespace APIVerve.API.CoinFlipper
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
     {
         [JsonProperty("total_flips")]
-        public long TotalFlips { get; set; }
+        public long? TotalFlips { get; set; }
 
         [JsonProperty("flips")]
-        public FirstFlip[] Flips { get; set; }
+        public FirstFlip?[] Flips { get; set; }
 
         [JsonProperty("heads_count")]
-        public long HeadsCount { get; set; }
+        public long? HeadsCount { get; set; }
 
         [JsonProperty("tails_count")]
-        public long TailsCount { get; set; }
+        public long? TailsCount { get; set; }
 
         [JsonProperty("heads_percentage")]
-        public long HeadsPercentage { get; set; }
+        public long? HeadsPercentage { get; set; }
 
         [JsonProperty("tails_percentage")]
-        public long TailsPercentage { get; set; }
+        public long? TailsPercentage { get; set; }
 
         [JsonProperty("longest_streak")]
         public LongestStreak LongestStreak { get; set; }
 
         [JsonProperty("first_flip")]
-        public FirstFlip FirstFlip { get; set; }
+        public FirstFlip? FirstFlip { get; set; }
 
         [JsonProperty("last_flip")]
-        public FirstFlip LastFlip { get; set; }
+        public FirstFlip? LastFlip { get; set; }
 
         [JsonProperty("is_fair")]
-        public bool IsFair { get; set; }
+        public bool? IsFair { get; set; }
     }
 
     public partial class LongestStreak
     {
         [JsonProperty("length")]
-        public long Length { get; set; }
+        public long? Length { get; set; }
 
         [JsonProperty("type")]
-        public FirstFlip Type { get; set; }
+        public FirstFlip? Type { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 
     public enum FirstFlip { Heads, Tails };
