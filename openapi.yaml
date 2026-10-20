@@ -2,9 +2,9 @@ openapi: 3.0.4
 info:
   title: Coin Flipper
   description: >-
-    Coin Flipper is a tool for simulating coin flips. It can flip multiple coins
-    at once and provides statistics including heads/tails counts, percentages,
-    streaks, and fairness analysis for probability experiments and gaming.
+    Coin Flipper simulates random coin flips and records heads or tails outcomes
+    with flip counts. Paid plans can simulate multiple flips per request and
+    calculate percentages, streak lengths, and fairness indicators.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/coinflipper:
     get:
-      summary: Flip Coins
+      summary: Coin Flipper
       description: Flip one or more coins and get detailed results
       operationId: coinflipper
       parameters:

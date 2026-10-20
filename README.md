@@ -1,13 +1,13 @@
-# [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Coin Flipper is a tool for simulating coin flips. It can flip multiple coins at once and provides statistics including heads/tails counts, percentages, streaks, and fairness analysis for probability experiments and gaming.
+Coin Flipper simulates random coin flips and records heads or tails outcomes with flip counts. Paid plans can simulate multiple flips per request and calculate percentages, streak lengths, and fairness indicators.
 
 The Coin Flipper API provides a simple, reliable way to integrate coin flipper functionality into your applications. Built for developers who need production-ready coin flipper capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -157,7 +157,7 @@ go get github.com/apiverve/coinflipper-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/coinflipper](https://docs.apiverve.com/ref/coinflipper)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -239,7 +239,7 @@ A real response from the Coin Flipper API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
