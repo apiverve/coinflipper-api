@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/coinflipper",
-  "version": "1.2.0",
-  "description": "Coin Flipper is a tool for simulating coin flips. It can flip multiple coins at once and provides statistics including heads/tails counts, percentages, streaks, and fairness analysis for probability experiments and gaming.",
+  "version": "1.2.2",
+  "description": "Coin Flipper simulates random coin flips and records heads or tails outcomes with flip counts. Paid plans can simulate multiple flips per request and calculate percentages, streak lengths, and fairness indicators.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/coinflipper-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/coinflipper?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/coinflipper?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
