@@ -1,13 +1,12 @@
 Coin Flipper API
 ============
 
-Coin Flipper is a tool for simulating coin flips. It can flip multiple coins at once and provides statistics including heads/tails counts, percentages, streaks, and fairness analysis for probability experiments and gaming.
+Coin Flipper simulates random coin flips and records heads or tails outcomes with flip counts. Paid plans can simulate multiple flips per request and calculate percentages, streak lengths, and fairness indicators.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-coinflipper.svg)](https://pypi.org/project/apiverve-coinflipper/)
+
+This is a Python wrapper for the [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-coinflipper
 
 ## Configuration
 
-Before using the coinflipper API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Coin Flipper API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Coin Flipper API documentation is found here: [https://docs.apiverve.com/ref/coinflipper](https://docs.apiverve.com/ref/coinflipper?utm_source=pypi&utm_medium=readme).
+The Coin Flipper API documentation is found here: [https://docs.apiverve.com/ref/coinflipper](https://docs.apiverve.com/ref/coinflipper?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -105,13 +104,13 @@ print(result)
     "total_flips": 10,
     "flips": [
       "Tails",
-      "Tails",
-      "Tails",
+      "Heads",
+      "Heads",
       "Tails",
       "Tails",
       "Heads",
-      "Heads",
-      "Heads",
+      "Tails",
+      "Tails",
       "Tails",
       "Tails"
     ],
@@ -120,7 +119,7 @@ print(result)
     "heads_percentage": 30,
     "tails_percentage": 70,
     "longest_streak": {
-      "length": 5,
+      "length": 4,
       "type": "Tails"
     },
     "first_flip": "Tails",
@@ -253,7 +252,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -264,12 +263,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
