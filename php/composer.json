@@ -1,7 +1,7 @@
 {
     "name": "apiverve/coinflipper",
-    "description": "Coin Flipper is a tool for simulating coin flips. It can flip multiple coins at once and provides statistics including heads/tails counts, percentages, streaks, and fairness analysis for probability experiments and gaming.",
-    "version": "1.2.0",
+    "description": "Coin Flipper simulates random coin flips and records heads or tails outcomes with flip counts. Paid plans can simulate multiple flips per request and calculate percentages, streak lengths, and fairness indicators.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,7 +21,7 @@
         "coin toss",
         "random coin"
     ],
-    "homepage": "https://apiverve.com/marketplace/coinflipper?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/coinflipper?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/coinflipper",
