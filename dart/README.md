@@ -1,11 +1,11 @@
 # Coin Flipper API - Dart/Flutter Client
 
-Coin Flipper is a tool for simulating coin flips. It can flip multiple coins at once and provides statistics including heads/tails counts, percentages, streaks, and fairness analysis for probability experiments and gaming.
+Coin Flipper simulates random coin flips and records heads or tails outcomes with flip counts. Paid plans can simulate multiple flips per request and calculate percentages, streak lengths, and fairness indicators.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_coinflipper.svg)](https://pub.dev/packages/apiverve_coinflipper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_coinflipper: ^1.1.14
+  apiverve_coinflipper: ^1.2.3
 ```
 
 Then run:
@@ -55,13 +55,13 @@ void main() async {
     "total_flips": 10,
     "flips": [
       "Tails",
-      "Tails",
-      "Tails",
+      "Heads",
+      "Heads",
       "Tails",
       "Tails",
       "Heads",
-      "Heads",
-      "Heads",
+      "Tails",
+      "Tails",
       "Tails",
       "Tails"
     ],
@@ -70,7 +70,7 @@ void main() async {
     "heads_percentage": 30,
     "tails_percentage": 70,
     "longest_streak": {
-      "length": 5,
+      "length": 4,
       "type": "Tails"
     },
     "first_flip": "Tails",
@@ -82,12 +82,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/coinflipper](https://docs.apiverve.com/ref/coinflipper?utm_source=dart&utm_medium=readme)
+- **API Home:** [Coin Flipper API](https://apiverve.com/marketplace/coinflipper?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/coinflipper](https://docs.apiverve.com/ref/coinflipper?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -95,4 +95,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

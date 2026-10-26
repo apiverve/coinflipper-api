@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Coin Flipper API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/coinflipper?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/coinflipper?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [flips] - Number of coins to flip [min: 1, max: 10000]
