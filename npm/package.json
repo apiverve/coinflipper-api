@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/coinflipper",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Coin Flipper simulates random coin flips and records heads or tails outcomes with flip counts. Paid plans can simulate multiple flips per request and calculate percentages, streak lengths, and fairness indicators.",
   "main": "index.js",
   "types": "index.d.ts",
